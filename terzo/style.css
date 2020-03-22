@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+.tasto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+button{
+  font-size: 30px;
+  padding: 30px;
+  cursor: pointer;
+  border-radius: 40px;
+  border: none;
+  color: #660066;
+  background-color: #e600e6;
+}
+
+#somma{
+  display: none;
+}
+
+button:focus{
+  background-color: #4d79ff;
+}
+
+button:focus #somma {
+  display: block;
+  font-size: 25px;
+  padding: 25px;
+  color: #000099;
+}
+
+button:focus span {
+  display: none;
+}
